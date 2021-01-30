@@ -1,0 +1,65 @@
+html, body {
+ font-family: 'Ubuntu', sans-serif;;
+}
+body {
+    margin: 20px;
+}
+hr{
+    max-width: 200px;;
+}
+ul, li{
+    list-style-type: none;
+}
+.select{
+    max-width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    
+}
+.title{
+    font-size: 35px;
+
+}
+.name {
+    padding: 15px;
+    font-size: 25px;
+    border-radius: 10px;
+    border: 2px solid  #50717b;
+    box-shadow: 2px 3px 3px #141b1a7a;
+    cursor: pointer;
+    /* background-color: #dbdbeb; */
+    background-color: #eae1e1;
+    margin-bottom: 20px;
+ }
+.container{
+    max-width: 400px;
+    text-align: center;
+    border: 2px solid #50717b;
+    margin: 0 auto;
+    box-shadow: 2px 2px 3px #141b1a7a;
+    border-radius: 15px;
+    padding: 10px 20px;
+    background-color:  #eae1e1;
+}
+.btn{
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 3px solid #7577cd;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+.selected_city{
+    font-size: 30px;
+}
+.temp,
+.feels_like,
+.country,
+.humidity{
+    font-size: 25px;
+}
+.time{
+    font-size: 10px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
